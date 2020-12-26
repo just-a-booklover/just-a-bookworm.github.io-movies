@@ -2,36 +2,39 @@
 <html>
     <head>
         <style>
-         body {
-            font-family: "Crimson Text", Garamond, "Times New Roman", serif;
-            background-color: rgb(250, 243, 221);
-            font-size: 35px;
-            color: rgb(94, 100, 114);
+        body {
+            font-family: Georgia, Times, "Times New Roman", serif;
+            color: rgb(0, 16, 17);
+            font-size: 15px;
         }
         a:link {
-            color: rgb(94, 100, 114);
+            color: rgb(114, 128, 138);
         }
         a:visited {
-            color: rgb(174, 217, 224);
+            color: rgb(0, 16, 17);
         }
         a:hover {
-            background-color: rgb(250, 243, 221);
+            background-color: rgb(191, 215, 181);
         }
         #titlediv {
-            border-bottom: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
-            margin-right: -20px;
-            margin-left: -20px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-size:39px;
+            background-color: rgb(241, 250, 238);
+            font-size: 25px;
+            margin: -8px;
+            padding-top: 7px;
+            padding-bottom: 7px;
         }
-        #megadiv {
-            position: absolute;
-            padding-left: 7px;
-            padding-right: 7px;
-            margin-top: -29px;
+        #links {
+            font-size: 20px;
+            background-color: rgb(163, 196, 188);
+            margin: -8px;
+            text-align: center;
+            padding: 5px;
+            clear: both;
+        }
+        .sotto {
+            background-color: rgb(241, 250, 238);
+            padding: 10px;
+            margin: -8px;
         }
         #title {
             text-align: center;
@@ -40,32 +43,25 @@
             margin-top: -15px;
         }
         #psmall {
-            font-size: 20px;
-        }
-        #div2 {
-            width: 28%;
-            float: right;
-            border: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            padding-left: 7px;
-            padding-right: 7px;
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
-            font-size: 30px;
+            font-size: 25px;
         }
         #piccolo {
-            border-top: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            margin-right: -20px;
-            margin-left: -20px;
+            font-size: 10px;
+            background-color: rgb(163, 196, 188);
+            margin: -8px;
             text-align: right;
-            padding-bottom: 20px;
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
+            padding: 5px;
+            clear: both;
         }
        #img {
             float: left;
        }
        #img2 {
             float: right;
+       }
+       .column {
+           background-color: rgb(255, 255, 255);
+           float: left;
        }
        .rubrica {
             width: 67%;
@@ -82,39 +78,42 @@
             position: relative;
             width: 99%;
         }
+        #home {
+           position: fixed;
+           right: 20px;
+           bottom: 20px;
+        }
+        #importante { 
+            padding: 10px;
+            margin: -8px;
+            background-color: rgb(163, 196, 188);
+        }
         </style>
         <meta charset="utf-8">
         <title>Just a Bookworm!</title>
         
     </head>
     <body>
-   <div id="megadiv">
         <div id="titlediv"><h1 id="title">Just a Bookworm</h1></div>
-        <p>Here you'll find a list of all the movies and the TV shows I watched since I decided to create this website. I hope you will enjoy my recommendations ;) .</p>
-        
-         <div id="div2">
-         <h3>Contents:</h3>
-        <ul id="vicino">
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-english/">HOME</a></li> 
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-elinks/">other links</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-columns/">other topics</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-books/">recommended books</a></li>
-        </ul>
-             <p id="vicino">go back to the <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io">Italian version</a> ;) .</p>
-        </div>
+        <div class="sotto div"><p style="margin-right: 20px; margin-left: 20px;">Here you'll find a list of all the movies and the TV shows I watched since I decided to create this website. I hope you will enjoy my reviews ;) . </p>
 
-        <h3> MOVIES:</h3>
-       <p id="vicino">"<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies-callmebyyourname/">Call me by your name</a>"<br>
+        <div class="sotto div"><h3> MOVIES:</h3>
+       <p id="vicino" style="margin-right: 20px; margin-left: 20px;">"<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies-callmebyyourname/">Call me by your name</a>"<br>
            "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies-enolaholmes/">Enola Holmes</a>"<br>
            "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies-prideandprejudice/">Pride and Prejudice</a>"<br>
            "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies-theballadofbusterscruggs/">The ballad of Buster Scruggs</a>"<br>
            "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies-thecircle/">The Circle</a>"<br>
            "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies-thekissingbooth/">The Kissing Booth (1&2)</a>" </p>
-       <h3>TV SHOWS:</h3>
-       <p id="vicino">"<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies-hollywood/">Hollywood</a>"<br>
+        </div>
+        
+        <div class="sotto div" id="importante"><p style="margin-right: 20px; margin-left: 20px;">Actually, I don't review all the movies I watch here in this website, for many of them I can't write more than a few sentences. If you're interested in all the movies I reviewed, you could check my <a href="https://www.rottentomatoes.com/user/id/978816989">RottenTomatoes account</a></p></div>
+       
+        <div class="sotto div"><h3>TV SHOWS:</h3>
+       <p id="vicino" style="margin-right: 20px; margin-left: 20px;">"<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies-hollywood/">Hollywood</a>"<br>
            "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies-sexeducation/">Sex Education</a>"<br>
            "<a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies-youngsheldon/">Young Sheldon</a>"</p>
         
        </div>
+        <div id="home"><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io/"><img src="https://live.staticflickr.com/65535/50628268432_1f3120e8be.jpg" width="120px"></a></div>
     </body>
 </html>
